@@ -1,7 +1,7 @@
 Active Directory Home Lab: User and Computer Management
 
 Overview
-This project demonstrates how I built a basic Windows domain environment using virtual machines. The goal was to practice Active Directory setup, user management, domain joining, and basic IT administration tasks.
+- This project demonstrates how I built a basic Windows domain environment using virtual machines. The goal was to practice Active Directory setup, user management, domain joining, and basic IT administration tasks.
 
 Tools
 - VMWare Workstation
