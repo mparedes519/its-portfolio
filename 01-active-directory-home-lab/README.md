@@ -35,6 +35,8 @@ Screenshots
 3. <img width="1022" height="1035" alt="Installed ADDS" src="https://github.com/user-attachments/assets/84e9d689-9e3d-4614-9140-a65b0641c81e" />
 -  Installed ADDS role on Windows Server to enable domain management and authentication services.
 
+4. <img width="1023" height="830" alt="Showing domain login" src="https://github.com/user-attachments/assets/cd7cc59d-45b5-4ef8-baed-ccb728ba37d5" />
+- Promoted the server to a Domain Controller and created the marc.local domain for centralized user authentication.
 
 
 Issues Encountered
