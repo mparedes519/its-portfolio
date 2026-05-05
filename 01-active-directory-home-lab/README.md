@@ -29,7 +29,8 @@ Screenshots
 (to be added)
 
 Issues Encountered
-(to be documented)
+- Initial virtual machine failed to boot into the installer because the incorrect ISO file was used. The system entered the EFI Boot Manager instead of launching Windows Setup. This was resolved by downloading the correct Windows Server ISO file and properly attaching it to the virtual machine.
+
 
 Skills Demonstrated
 - Windows Server installation
