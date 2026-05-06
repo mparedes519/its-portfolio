@@ -38,6 +38,10 @@ Screenshots
 4. <img width="1023" height="830" alt="Showing domain login" src="https://github.com/user-attachments/assets/cd7cc59d-45b5-4ef8-baed-ccb728ba37d5" />
 - Promoted the server to a Domain Controller and created the marc.local domain for centralized user authentication.
 
+5. <img width="1080" height="1080" alt="AD Users Group OU" src="https://github.com/user-attachments/assets/92ae93ba-ea06-4fde-a4a7-15e785456ecd" />
+- Created organizational units, users, and security groups to simulate a basic company structure within Active Directory.
+
+
 
 Issues Encountered
 - Initial virtual machine failed to boot into the installer because the incorrect ISO file was used. The system entered the EFI Boot Manager instead of launching Windows Setup. This was resolved by downloading the correct Windows Server ISO file and properly attaching it to the virtual machine.
