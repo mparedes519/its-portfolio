@@ -26,7 +26,7 @@ Tasks to be Completed
 - Test domain user login
 
 Screenshots
-1. <img width="600" height="600" alt="Deskstop after login" src="https://github.com/user-attachments/assets/3727dab3-ba03-4d26-8dd0-7d83251d6e7f" />
+1. <img width="1918" height="1142" alt="Deskstop after login" src="https://github.com/user-attachments/assets/3727dab3-ba03-4d26-8dd0-7d83251d6e7f" />
 - Installed Windows Server 2025 with Desktop Experience in a virtualized environment and configured initial administrative access.
 
 2. <img width="1022" height="1037" alt="DC01 Static IP" src="https://github.com/user-attachments/assets/8843a425-ce58-49ab-833d-6e59294ae602" />
