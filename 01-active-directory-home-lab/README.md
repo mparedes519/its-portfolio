@@ -41,10 +41,18 @@ Screenshots
 5. <img width="1080" height="1080" alt="AD Users Group OU" src="https://github.com/user-attachments/assets/92ae93ba-ea06-4fde-a4a7-15e785456ecd" />
 - Created organizational units, users, and security groups to simulate a basic company structure within Active Directory.
 
+6. <img width="1351" height="685" alt="Domain and New User in Domain" src="https://github.com/user-attachments/assets/b61e3455-9ef7-49ff-8f1c-774f0178c55a" />
+- Successfully joined a Windows 11 client machine to the marc.local Active Directory domain and authenticated using domain user accounts.
+
+
 
 
 Issues Encountered
-- Initial virtual machine failed to boot into the installer because the incorrect ISO file was used. The system entered the EFI Boot Manager instead of launching Windows Setup. This was resolved by downloading the correct Windows Server ISO file and properly attaching it to the virtual machine.
+- The virtual machine initially failed to boot into the Windows Server installer because the incorrect ISO file was attached. This was resolved by downloading and mounting the correct Windows Server ISO.
+- Network connectivity between CLIENT01 and DC01 initially failed because both virtual machines were on different subnets. This was resolved by reconfiguring both VMs to use the same Host-only virtual network.
+- CLIENT01 received a 169.254.x.x APIPA address after switching networks, indicating DHCP failure. A manual IPv4 configuration was applied to place the client in the same subnet as the domain controller.
+- Ping requests initially failed due to Windows Firewall restrictions on DC01. ICMP Echo Request inbound rules were enabled to allow connectivity testing between virtual machines.
+- Domain name resolution issues occurred because the client machine was not initially configured to use the domain controller as its DNS server. This was resolved by manually setting the preferred DNS server to 192.168.10.10.
 
 
 Skills Demonstrated
